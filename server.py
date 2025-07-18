@@ -35,11 +35,11 @@ class ConfigInfo(BaseModel):
 class Configuration:
     """达达开放平台API接口环境配置"""
     host: str = "http://newopen.qa.imdada.cn"
-    callback: str = "http://baidu.com"
-    source_id: str = "2079751081"
-    shop_no: str = "8f27f5aaae7e48ed"
-    app_key: str = "dada0bb505789a2d445"
-    app_secret: str = "83a3372d374283c48921bdb98cb47124"
+    callback: str = ""
+    source_id: str = ""
+    shop_no: str = ""
+    app_key: str = ""
+    app_secret: str = ""
 
 
 @dataclass
