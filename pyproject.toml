@@ -1,0 +1,17 @@
+[project]
+name = "dada-mcp-server"
+version = "0.1.0"
+description = "达达跑腿MCP服务器"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.12.0",
+    "requests>=2.31.0",
+    "aiohttp>=3.8.0",
+    "uvicorn>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
