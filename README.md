@@ -1,6 +1,6 @@
 # 达达跑腿MCP服务器
 
-这是一个基于最新MCP Python SDK 1.12.0构建的达达跑腿配送服务MCP服务器，使用streamable-http传输协议。
+这是一个达达跑腿mcp服务器，基于最新MCP Python SDK 1.12.0，使用streamable-http传输协议
 
 ## 功能特性
 
